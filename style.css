@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(83, 83, 83);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.container h1 {
+  font-size: 40px;
+  color: rgb(213, 213, 218);
+}
+.clock {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(213, 213, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(143, 141, 141);
+}
